@@ -4,7 +4,20 @@
 }
 
 .platform-android ion-header-bar {
+  padding-top: var(--statusbar-height);
+  min-height: calc(var(--statusbar-height) + var(--header-height));
+}
+
+.platform-android ion-header-bar .title {
   top: var(--statusbar-height);
+}
+
+.platform-android .modal ion-header-bar .button {
+  top: var(--statusbar-height) !important;
+}
+
+.platform-android ion-header-bar .buttons-right {
+  top: var(--statusbar-height) !important;
 }
 
 .platform-android .has-header {
@@ -19,10 +32,6 @@
   top: calc(var(--header-height) * 2 + var(--statusbar-height)) !important;
 }
 
-.platform-android .status-bar {
-  position: fixed;
-  padding: 0px;
-  height: var(--statusbar-height);
-  z-index: 10;
-  background-image: none !important;
+.status-bar {
+  display: none;
 }
