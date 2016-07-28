@@ -32,6 +32,6 @@
   top: calc(var(--header-height) * 2 + var(--statusbar-height)) !important;
 }
 
-.status-bar {
+.immerse-status-bar {
   display: none;
 }

@@ -14,9 +14,8 @@ angular.module('whcyit-immerse', []);
     return {
       restrict: 'E',
       replace: true,
-      template: '<div class="status-bar bar {{barClass}}"></div>',
+      template: '<div class="immerse-status-bar"></div>',
       link: function (scope, element, attrs) {
-        scope.barClass = attrs.barClass;
         document.addEventListener("deviceready", function () {
           if (!ImmersePlugin) {
             return;
