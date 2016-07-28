@@ -3,16 +3,7 @@
   --header-height: 44px;
 }
 
-.platform-android .modal {
-  top: var(--statusbar-height);
-  min-height: calc(100% - var(--statusbar-height));
-}
-
-.platform-android .modal .has-header {
-  top: var(--header-height);
-}
-
-.platform-android .bar-header {
+.platform-android ion-header-bar {
   top: var(--statusbar-height);
 }
 
