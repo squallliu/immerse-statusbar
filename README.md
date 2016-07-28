@@ -18,7 +18,7 @@ ionic plugin add https://github.com/squallliu/cordova-plugin-Immerse.git
 # Usage
 修改index.html
 ```
-<cy-immerse-bar bar-class="bar-positive"></cy-immerse-bar>
+<cy-immerse-bar></cy-immerse-bar>
 <ion-nav-bar class="bar-positive" align-title="center">
   <ion-nav-back-button>
   </ion-nav-back-button>
