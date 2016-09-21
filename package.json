@@ -1,0 +1,16 @@
+{
+  "name": "whcyit-immerse",
+  "version": "1.0.0",
+  "description": "cordova/ionic 沉浸状态栏",
+  "main": "whcyit-immerse.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/squallliu/whcyit-immerse.git"
+  },
+  "author": "squall liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/squallliu/whcyit-immerse/issues"
+  },
+  "homepage": "https://github.com/squallliu/whcyit-immerse#readme"
+}
